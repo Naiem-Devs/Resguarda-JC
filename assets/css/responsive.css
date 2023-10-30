@@ -1,0 +1,417 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+:root{
+    --f28: 24px;
+    --f30: 30px;
+    --f32: 28px;
+    --f36: 32px;
+    --f40: 36px;
+    --f64: 48px;
+}
+
+
+.app_link {
+    flex-direction: column;
+}
+
+.app_content {
+    justify-content: space-around;
+}
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    :root{
+        --f28: 24px;
+        --f30: 30px;
+        --f32: 28px;
+        --f36: 32px;
+        --f40: 36px;
+        --f64: 48px;
+    }
+    
+    
+    .app_link {
+        /* flex-direction: column; */
+        margin-top: 30px;
+    }
+    
+    .app_content {
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-content {
+        text-align: center;
+    }
+    
+    .hero-area .row {
+        flex-direction: column-reverse;
+    }
+    
+    .hero-img {
+        margin: auto;
+        margin-bottom: 60px;
+    }
+    
+    .sec_padding {
+        padding: 70px 0;
+    }
+    
+    section.hero-area {
+        padding-top: 15px;
+    }
+    
+    .brandLogo-wrp {
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    img.faq-arrow {
+        display: none;
+    }
+    
+    .faq-img {
+        max-width: 530px;
+        margin: auto;
+        margin-bottom: 70px;
+    }
+    
+    .faq-area .row {
+        flex-direction: column-reverse;
+    }
+    
+    .faq-content .title {
+        text-align: center;
+    }
+    
+    .faq-content {
+        padding: 0 50px;
+    }
+    
+    .banner-content img {
+        scale: .7;
+    }
+    .Dispositivo_content ,.Dispositivo_content.v2 {
+        gap: 50px;
+    }
+
+    .qr_code {
+        margin: 40px auto;
+    }
+
+    .shape-top,.shape-btm {
+        max-width: 150px;
+    }
+
+
+    .Instrudoes .bb_code-right {
+        text-align: center;
+        margin: auto;
+        margin-top: 40px;
+    }
+    
+    .Instrudoes .bb_code-right li {
+        text-align: left;
+    }
+    
+    .Instrudoes .bb_code-right a {
+        margin: auto;
+    }
+    .tnx_text {
+        padding: 30px;
+    }
+    
+    .Tnx_content {
+        margin: 50px 10px 0;
+    }
+
+
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    :root{
+        --f24: 20px;--f28: 20px;
+        --f30: 22px;
+        --f32: 22px;
+        --f36: 24px;
+        --f40: 26px;
+        --f64: 28px;
+    }
+    
+    .header-area hr {
+        margin-top: 20px;
+    }
+    .app_link {
+        /* flex-direction: column; */
+        margin-top: 30px;
+    }
+    
+    .app_content {
+        justify-content: space-around;
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-content {
+        text-align: center;
+    }
+    
+    .hero-area .row {
+        flex-direction: column-reverse;
+    }
+    
+    .hero-img {
+        margin: auto;
+        margin-bottom: 60px;
+        max-width: 250px;
+    }
+    
+    .sec_padding {
+        padding: 60px 0;
+    }
+    
+    section.hero-area {
+        padding-top: 15px;
+    }
+    
+    .brandLogo-wrp {
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    img.faq-arrow {
+        display: none;
+    }
+
+img.faq-main {
+    max-width: 290px;
+}
+    
+    .faq-img {
+        max-width: 300px;
+        margin: auto;
+        margin-bottom: 70px;
+    }
+    
+    section.faq-area .row {
+        flex-direction: column-reverse;
+    }
+    
+    .faq-content .title {
+        text-align: center;
+    }
+    
+    .faq-content {
+        padding: 0 10px;
+    }
+    
+    .banner-content img {
+        scale: .4;
+        display: none;
+    }
+
+    .header-right a {
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        height: 40px;
+        max-width: 200px;
+    }
+    
+    img.hero-img1 {
+        max-width: 145px;
+        margin-left: -55px;
+        top: -19px;
+    }
+    
+    .hero-icon {
+        max-width: 175px;
+        bottom: -20px;
+    }
+    .hero-content h1 {}
+
+.brandLogo-wrp a {
+    width: 165px;
+}
+
+img.faq-2 {
+    left: -22px;
+    scale: .8;
+}
+
+img.faq-1 {
+    scale: .8;
+    right: -21px;
+}
+
+.faq-content button {
+    font-size: 16px;
+    padding: 20px 0;
+}
+
+.faq-content .accordion-item {
+    border-width: 2px;
+}
+
+.banner-content {
+    padding: 40px 20px;
+}
+
+.mt_100 {
+    margin-top: 70px;
+}
+
+.brandLogo-area {
+    margin-top: 20px;
+}
+
+.service_blk {
+    max-width: 330px;
+    margin-inline: auto;
+    padding: 40px;
+    padding-top: 100px;
+}
+.brand_wrp{
+    margin: 40px 0;
+    gap: 20px;
+}
+.brand_item {
+    width: 160px;
+}
+img.line-ar {
+    display: none;
+}
+
+img.Ellipse-2 {
+    right: 0;
+    width: 200px;
+}
+.shape-top,.shape-btm {
+    max-width: 115px;
+}
+
+.itau .shape-top,.itau .shape-btm {
+    max-width: 60px;
+}
+.login-form,.login-form.p40 {
+    padding: 30px;
+}
+
+.my-5 {
+    margin-top: 2rem!important;
+    margin-bottom: 2rem!important;
+}
+.bb_code-left {
+    width: 90%;
+    margin-inline: auto;
+}
+
+.qr_code {
+    margin-inline: auto;
+    margin-bottom: 30px !important;
+    max-width: 250px;
+}
+
+.bb_code-right a {
+    width: 215px;
+}
+
+.Instrudoes .bb_code-right a {
+    margin: auto;
+    width: max-content;
+}
+
+.bb_code-right a.log_btn {
+    width: max-content;
+}
+.Prazo_content i {
+    scale: .8;
+}
+.login_content .logo {
+    scale: .7;
+    margin-bottom: 40px;
+}
+.Dispositivo_content.v2 {
+    flex-direction: column;
+    gap: 30px 0;
+    margin-bottom: 40px;
+}
+
+.dispositivo_right {
+    text-align: center;
+}
+
+.Dispositivo_content i {
+    scale: .8;
+}
+.Dispositivo_text {
+    margin: 50px 0;
+}
+
+.mb_100 {
+    margin-bottom: 70px;
+}
+
+.mb-5 {
+    margin-bottom: 2rem!important;
+}
+
+.Dispositivo_content {
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.loading_content i{
+    /* scale: .8; */
+    padding: 0 50px;
+}
+.flex{
+    flex-direction: column;
+}
+
+.realizar_btn .flex {
+    gap: 16px;
+    max-width: 320px;
+    margin-inline: auto;
+}
+
+.realizar_btn{
+    margin-top: 76px;
+}
+
+.realizar_btn p {
+    font-size: 16px;
+}
+
+.tnx_text {
+    padding: 30px;
+}
+
+.Tnx_content {
+    margin: 50px 10px 0;
+}
+
+
+
+
+
+
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}

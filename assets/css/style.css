@@ -1,0 +1,1296 @@
+/*   Theme default css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* ======font family=========
+font-family: 'Inter', sans-serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
+*/
+
+:root {
+    --thmColor: #6677FF;
+    --thmColor2: #00CC87;
+    --thmColor3: #FFAC30;
+    --thmColor4: #0059A3;
+    --thmColor5: #F00;
+    --textColor: #101623;
+    --bgColor: #F1F4F9;
+    --borderColor: #CFD0D3;
+    --Inter: 'Inter', sans-serif;
+    --f18: 18px;
+    --f20: 20px;
+    --f24: 24px;
+    --f28: 28px;
+    --f30: 30px;
+    --f32: 32px;
+    --f36: 36px;
+    --f40: 40px;
+    --f64: 64px;
+}
+
+
+body {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: #101623;
+    position: relative;
+}
+
+p {
+    opacity: .6;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+a:focus,
+button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover {
+    /* color: inherit; */
+    text-decoration: none;
+}
+
+a,
+button {
+    color: inherit;
+    outline: medium none;
+    text-decoration: none;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+    outline: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0px;
+    font-weight: 700;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+h2 {
+    font-size: var(--f36);
+    font-weight: 800;
+}
+
+h3 {
+    font-size: var(--f28);
+}
+
+h4 {
+    font-size: var(--f24);
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul.numbered {
+    margin-left: 16px;
+}
+
+li {
+    list-style: none;
+}
+
+.pb_150 {
+    padding-bottom: 150px;
+}
+
+.pb_100 {
+    padding-bottom: 100px;
+}
+
+.pb_50 {
+    padding-bottom: 50px;
+}
+
+.pt_150 {
+    padding-top: 150px;
+}
+
+.pt_100 {
+    padding-top: 100px;
+}
+
+.pt_50 {
+    padding-top: 50px;
+}
+
+.mb_150 {
+    margin-bottom: 150px;
+}
+
+.mb_100 {
+    margin-bottom: 100px;
+}
+
+.mb_50 {
+    margin-bottom: 50px;
+}
+
+.mt_150 {
+    margin-top: 150px;
+}
+
+.mt_100 {
+    margin-top: 100px;
+}
+
+.mt_50 {
+    margin-top: 50px;
+}
+
+.sec_padding {
+    padding: 100px 0;
+}
+
+.thm_btn {
+    padding: 14px 40px;
+    display: inline-block;
+    text-align: center;
+    background: var(--thmColor);
+    color: #fff;
+    font-weight: 700;
+    border-radius: 12px;
+}
+
+a.thm_btn.bordered {
+    background: no-repeat;
+    border: 1px solid var(--thmColor);
+    color: var(--thmColor);
+}
+
+.thm_btn.green {
+    background: var(--thmColor2);
+}
+
+.flex {
+    display: flex;
+}
+
+a.thm_btn.v2 {
+    background: var(--thmColor3);
+    border-radius: 40px;
+}
+
+.title span {
+    color: var(--thmColor) !important;
+}
+
+.title span i {
+    font-style: normal;
+    color: var(--thmColor2);
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* default-css END 
+================================== */
+
+.header-area {
+    padding: 30px 0;
+}
+
+.header-area hr {
+    margin-top: 40px;
+    opacity: .1;
+}
+
+.header-area .container {
+    height: 100%;
+}
+
+.header-right a {
+    width: 288px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    color: var(--thmColor);
+    font-weight: 700;
+    border-radius: 12px;
+    border: 1px solid;
+    transition: all .3s;
+}
+
+.header-right a:hover {
+    background: var(--thmColor);
+    color: #fff;
+}
+
+/* Header section END */
+
+
+/*============ Area Start =============*/
+
+
+.hero-content p {
+    margin-bottom: var(--f64);
+}
+
+.hero-content h1 {
+    font-size: var(--f64);
+    margin-bottom: var(--f40);
+}
+
+.hero-img1 {
+    position: absolute;
+    max-width: 225px;
+    margin-left: -70px;
+}
+
+.hero-img {
+    text-align: right;
+    position: relative;
+    max-width: 480px;
+    margin-left: auto;
+}
+
+.hero-icon {
+    position: absolute;
+    bottom: -33px;
+    left: 56%;
+    transform: translateX(-50%);
+}
+
+/*============ Area End =============*/
+
+
+/*============ Area Start =============*/
+
+.brandLogo-area {
+    padding: 60px 0;
+    background: var(--bgColor);
+}
+
+.brandLogo-wrp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.brandLogo-wrp a {
+    width: 175px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}
+
+.brandLogo-wrp a img {
+    transition: all .3s;
+}
+
+.brandLogo-wrp a:hover img {
+    scale: 1.1;
+}
+
+/*============ Area End =============*/
+
+
+/*============ Area Start =============*/
+
+
+.service_blk {
+    border: 1px solid var(--borderColor);
+    border-radius: 40px;
+    margin-top: 100px;
+    padding: 50px;
+    padding-top: 100px;
+    text-align: center;
+    position: relative;
+}
+
+.service_blk h4 {
+    margin-bottom: var(--f24);
+}
+
+.service_blk i {
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/*============ Area End =============*/
+
+
+/*============ Area Start =============*/
+
+.faq-content .accordion-item {
+    border-bottom: 3px solid rgb(102 119 255 / 10%);
+}
+
+.faq-content .title {
+    margin-bottom: 40px;
+}
+
+.faq-content button {
+    background: none;
+    border: none;
+    font-size: var(--f24);
+    font-weight: 600;
+    padding: 36px 0;
+    text-align: left;
+}
+
+.faq-content button:after {
+    background-image: url(../img/arrow.svg);
+}
+
+.faq-content button:not(.collapsed)::after {
+    background-image: url(../img/arrow.svg);
+}
+
+.faq-content button.active {
+    background: none !important;
+}
+
+.faq-img {
+    text-align: right;
+    position: relative;
+    /* height: 100%; */
+    width: 100%;
+}
+
+.faq-img img {
+    position: absolute;
+    right: 0;
+}
+
+img.faq-main {
+    max-width: 480px;
+    position: unset;
+}
+
+.faq-arrow {
+    right: auto;
+    left: 0;
+    z-index: -1;
+}
+
+.faq-1 {
+    top: -40px;
+}
+
+.faq-2 {
+    bottom: -46px;
+    right: auto !important;
+    left: 31px;
+}
+
+/*============ Area End =============*/
+
+
+/*============ Area Start =============*/
+
+
+.banner-content {
+    text-align: center;
+    position: relative;
+    color: #fff;
+    padding: var(--f64);
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.banner-content {
+    background-image: url(../img/banner-bg.png);
+}
+
+.banner-content h2 {
+    margin-bottom: var(--f40);
+}
+
+.banner-content img {
+    position: absolute;
+}
+
+.ban-1 {
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ban-2 {
+    right: 20px;
+    bottom: 25px;
+}
+
+/*============ Area End =============*/
+
+
+/*============ Area Start =============*/
+
+.apps-area {
+    background: var(--bgColor);
+    margin-bottom: 70px;
+    padding: 80px 0;
+}
+
+.app_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--f24);
+}
+
+.app_content span {
+    display: block;
+    margin-top: var(--f24);
+}
+
+.app_link {
+    display: flex;
+    gap: 20px;
+}
+
+/*============ Area End =============*/
+
+
+/*============ Area Start =============*/
+
+.footer-wrp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-top: 1px solid #0002;
+    padding: 50px 0;
+}
+
+.footer-wrp p {
+    margin-bottom: 0;
+}
+
+/*============ Area End =============*/
+
+
+/*============ Area Start =============*/
+
+.position-img img {
+    position: absolute;
+}
+
+.Ellipse-1 {
+    left: 22%;
+    bottom: 23%;
+}
+
+.Ellipse-2 {
+    top: 0;
+    right: 20%;
+}
+
+.line-ar {
+    right: 0;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+.brand-content {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.brand-content a.thm_btn {
+    margin-top: 40px;
+}
+
+
+.brand-content h2 {
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+.brand_wrp {
+    margin: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.brand_item {
+    border-radius: 20px;
+    border: 1px solid var(--borderColor);
+    display: inline-flex;
+    align-items: center;
+    width: 175px;
+    height: 200px;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px 0 15px;
+    background: #ffff;
+    transition: all .3s;
+}
+
+.brand_item.active,
+.brand_item:hover {
+    box-shadow: 0px 5px 24px 0px rgba(76, 91, 224, 0.15);
+    border-color: #fff;
+    color: var(--thmColor);
+}
+
+.brand_item.active span {
+    font-weight: 800;
+}
+
+.brand_item i {
+    display: flex;
+    align-items: center;
+    height: 98px;
+}
+
+.brand_item span {
+    display: block;
+    /* position: absolute; */
+    bottom: 0;
+    left: 50%;
+    width: 100%;
+    /* transform: translateX(-50%); */
+    font-weight: 500;
+}
+
+/*============ Area End =============*/
+
+
+/*============login Area Start =============*/
+
+
+.login-area a.thm_btn {
+    font-weight: 400;
+}
+
+.shape-top {
+    top: 0;
+    right: 0;
+    position: fixed !important;
+    z-index: -1;
+}
+
+.shape-btm {
+    bottom: 0;
+    left: 0;
+    position: fixed !important;
+    z-index: -1;
+}
+
+.login_content {
+    text-align: center;
+}
+
+.login_content h3 {
+    font-weight: 800;
+    font-family: var(--Inter);
+}
+
+
+.login_content h3 span {
+    color: var(--thmColor4);
+}
+
+.login_content h3 span.red2 {
+    color: #FF1720;
+}
+
+.login_content span.red {
+    color: #CC092F;
+}
+
+.login_content .title {
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.login_content .logo {
+    margin-bottom: 60px;
+}
+
+.caixa .login_content .logo {
+    margin-bottom: 40px;
+}
+
+.extra-text {
+    display: flex;
+    font-size: var(--f36);
+    justify-content: center;
+    gap: 0 10px;
+    flex-wrap: wrap;
+}
+
+.extra-text h2.title {
+    margin-bottom: 0;
+}
+
+.extra-text span {
+    font-weight: 700;
+    display: inline-block;
+    margin-top: -4px;
+    color: var(--thmColor4);
+}
+
+span.red2 {
+    color: #FF1720;
+}
+
+.realizar_btn {
+    text-align: center;
+    margin-top: 130px;
+    max-width: 830px;
+    margin-inline: auto;
+}
+
+.realizar_btn p {
+    font-size: var(--f20);
+    margin-bottom: 28px;
+    font-family: var(--Inter);
+}
+
+p.op-1 {
+    opacity: 1;
+}
+
+.realizar_btn .flex {
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.realizar_btn a {
+    width: 100%;
+    font-weight: 400;
+}
+
+.login-form {
+    border-radius: 24px;
+    border: 1px solid #BFBFBF;
+    background: #FBFBFB;
+    padding: 40px 100px;
+    max-width: 620px;
+    margin-inline: auto;
+}
+
+.login-form.btg {
+    background: no-repeat;
+}
+
+.login-form.md {
+    max-width: 710px;
+}
+
+.login-form.p40 {
+    padding: 40px 60px;
+}
+
+.login-form.lg form {
+    max-width: 480px;
+    margin-inline: auto;
+}
+
+.login-form.lg {
+    max-width: 790px;
+    border-radius: 16px;
+}
+
+.login-form.btg input {
+    background: #F6F6F6;
+    border: none;
+    color: var(--textColor);
+}
+
+.login-form.btg input::placeholder {
+    color: var(--textColor);
+}
+
+.SMS_text {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.SMS_text a {
+    font-weight: 600;
+    color: var(--thmColor);
+}
+
+.SMS_text span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.login-form .log_btn {
+    margin-top: 30px;
+    width: max-content;
+    margin-inline: auto;
+    display: block;
+    min-width: 200px;
+    padding: 11px 40px;
+}
+
+small.passo {
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+}
+
+.login-form h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.input_blk {
+    margin-bottom: var(--f24);
+}
+
+.btn-grp {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-grp a {
+    width: 100%;
+    gap: 20px;
+    height: 44px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span.log-worn {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--thmColor5);
+    margin-top: -17px;
+}
+
+span.log-worn.v2 {
+    color: #BFBFBF;
+}
+
+.SMS-link {
+    font-weight: 600;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.SMS-link a {
+    color: var(--thmColor);
+}
+
+.input_blk input {
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid #CFD0D3;
+    background: #FFF;
+    height: 52px;
+    padding: 0 24px;
+}
+
+.input_blk label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+/*============login Area End =============*/
+
+
+/*============ Area Start =============*/
+
+.Adeso_btns {
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.Instrudoes {
+    padding: 32px 20px 45px;
+    border-radius: 16px;
+    border: 1px solid var(--borderColor);
+    max-width: 1000px;
+    margin: 60px auto;
+}
+
+.Instrudoes .bb_code-right {
+    max-width: 370px;
+}
+
+.Instrudoes .bb_code-right a {
+    margin: unset;
+}
+
+.Instrudoes .bb_code-right h5 {
+    color: var(--thmColor);
+    margin-bottom: 1rem;
+}
+
+.Instrudoes .bb_code-right ul li {
+    list-style: nu;
+    margin-left: 15px;
+    font-weight: 700;
+    color: #70737B;
+    margin-bottom: 10px;
+}
+
+.Adeso_btns ul li button {
+    border: none;
+    background: none;
+    font-size: var(--f24);
+    font-weight: 500;
+    border-bottom: 2px solid #BFBFBF;
+    color: #BFBFBF;
+    padding: 15px 30px;
+}
+
+.Adeso_btns ul li button.active {
+    color: var(--thmColor);
+    border-color: var(--thmColor);
+}
+
+.Adeso_btns ul {
+    justify-content: center;
+}
+
+.Adeso-tab {
+    margin-bottom: 60px;
+}
+
+
+.Adeso-tab .login-form {
+    padding: 40px 50px;
+}
+
+.bb_code-right .login-form {
+    padding: 40px 30px;
+    margin-bottom: 32px;
+}
+
+.log_btn {
+    border: none;
+}
+
+ul.numbered li {
+    list-style: nu;
+    line-height: 1.7;
+}
+
+.bb_code-left span {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.qr_code {
+    width: max-content;
+    border-radius: 24px;
+    border: 1px solid #DFDFDF;
+    background: #FBFBFB;
+    margin-top: 28px;
+}
+
+.bb_code-right a {
+    margin: auto;
+    display: block;
+    width: max-content;
+}
+
+
+.Equipamento_content {
+    padding: 40px;
+}
+
+#Equipamento .modal-content {
+    border-radius: 24px;
+    max-width: 729px;
+    margin: auto;
+}
+
+.Equipamento_content ul {
+    margin: 24px 0 56px;
+}
+
+.Equipamento_content a {
+    margin-left: auto;
+    width: max-content;
+    display: block;
+    padding: 12px 16px;
+    font-weight: 400;
+}
+
+.Prazo_content {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: -20px;
+}
+
+.Prazo_content i {
+    display: block;
+    margin: 40px 0;
+}
+
+.Prazo_content span {
+    display: block;
+    max-width: 480px;
+    margin: auto;
+}
+
+.Dispositivo_top {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.Dispositivo_top>span {
+    max-width: 750px;
+    display: block;
+    margin: auto;
+    margin-top: 16px;
+}
+
+.Dispositivo_content {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.Dispositivo_content.v2 {
+    max-width: 950px;
+    margin-inline: auto;
+    gap: 50px 100px;
+}
+
+.dispositivo_right .input_blk {
+    max-width: 420px;
+}
+
+.dispositivo_right span {
+    margin-bottom: 30px;
+    display: block;
+    margin-top: 16px;
+}
+
+.dispositivo_right h2 {
+    font-weight: 600;
+}
+
+.Dispositivo_content h6 {
+    border-radius: 16px;
+    border: 1px solid var(--2, #67F);
+    background: #F5F6FF;
+    padding: 24px;
+    font-weight: 600;
+    line-height: 1.7;
+    margin-bottom: 60px;
+}
+
+.Dispositivo_content i {
+    display: block;
+    flex-shrink: 0;
+}
+
+/*============ Area End =============*/
+
+
+/*============caixa  Area Start =============*/
+
+
+.caixa .thm_btn {
+    border-radius: 0;
+    min-width: 200px;
+}
+
+.Dispositivo_text {
+    text-align: center;
+    margin: 80px 0;
+}
+
+.Dispositivo_accordion {
+    max-width: 790px;
+    margin-inline: auto;
+}
+
+.Dispositivo_accordion .accordion-item {
+    border-bottom: 1px solid var(--textColor);
+}
+
+.Dispositivo_accordion button {
+    border: none;
+    padding: 20px 0;
+    text-align: left;
+}
+
+.Dispositivo_accordion .accordion-button:not(.collapsed) {
+    color: var(--thmColor);
+    font-size: var(--f18);
+    font-weight: 600;
+    text-align: left;
+}
+
+.accord-body {
+    padding-bottom: 16px;
+}
+
+.accord-body ul li {
+    list-style: nu;
+    margin-left: 16px;
+    font-weight: 500;
+}
+
+
+span.Caso {
+    text-align: center;
+    display: block;
+    margin-bottom: 50px;
+}
+
+span.Caso a {
+    color: var(--thmColor);
+}
+
+/*============caixa  Area End =============*/
+
+
+/*============itau Area Start =============*/
+.itau {
+    margin-top: 60px;
+}
+
+.Acesso_right ul li {
+    margin-bottom: 8px;
+}
+
+.Acesso_right ul {
+    margin-bottom: 24px;
+}
+
+.itau-wrp {
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+.itau .login_content .logo {
+    margin-bottom: 40px;
+}
+
+.itau .shape-btm {
+    bottom: 100px;
+}
+
+/*============itau Area End =============*/
+
+
+/*============Santander Area Start =============*/
+.Santander .login-form {
+    border: none;
+    border-radius: 16px;
+    background: #F1F2F5;
+}
+
+.Santander .login-form form {
+    max-width: 420px;
+    margin-inline: auto;
+}
+
+.Santander .login-form .input_blk input {
+    border-radius: 40px;
+    border: none;
+}
+
+
+main.Santander .itau-wrp {
+    max-width: 100%;
+}
+
+.Santander .thm_btn {
+    border-radius: 40px;
+}
+
+/*============Santander Area End =============*/
+
+
+/*============loading Area Start =============*/
+
+.loading-area .center {
+    height: calc(100vh - 110px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading_content {
+    text-align: center;
+}
+
+.loading_content h2 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.loading_content i {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.loading_content p {
+    opacity: 1;
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+/*============loading Area End =============*/
+
+
+/*============Tnx Area Start =============*/
+.Tnx-area {
+    margin-bottom: 50px;
+}
+
+.Tnx_content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px 0;
+}
+
+.Tnx_content a {
+    width: max-content;
+    margin: auto;
+}
+
+.tnx_text {
+    border-radius: 24px;
+    border: 1px solid #BFBFBF;
+    background: #FBFBFB;
+    padding: 40px 100px;
+    text-align: left;
+}
+
+.tnx_text p {
+    opacity: 1;
+}
+
+.tnx_text ul li {
+    text-align: left;
+    opacity: .6;
+}
+
+.tnx_text ul {
+    margin-left: 24px;
+    margin-top: -16px;
+}
+
+/*============Tnx Area End =============*/
+
+
+/*============popUp page Start =============*/
+.popUp-AX {
+    gap: 28px;
+}
+
+#PopUp-AX .popUp_style {
+    padding: 24px 40px;
+    max-width: 400px;
+}
+
+.popUp-TX {
+    gap: 24px;
+}
+
+.popUp-TX a {
+    width: max-content;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.popUp-CX {
+    gap: 40px;
+}
+
+#PopUp-CX .popUp_style {
+    max-width: 440px;
+}
+
+
+.popUp-CX a {
+    width: max-content;
+    margin: auto;
+}
+
+.popUp_style {
+    border-radius: 24px;
+    background: #FFF;
+    padding: 40px;
+    text-align: center;
+}
+
+.popUp_style>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.popUp-AX a {
+    text-align: right;
+    margin-bottom: -10px;
+}
+
+.popUp_style p {
+    opacity: 1;
+}
+
+/*============popUp page End =============*/

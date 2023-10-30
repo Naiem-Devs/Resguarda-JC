@@ -1,0 +1,117 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>PopUp</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<link rel="shortcut icon" type="image/x-icon" href="#">
+        <!-- Place favicon.ico in the root directory -->
+        
+		<!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css"> 
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/responsive.css">
+    </head>
+    <body>
+
+       
+    <!-- header-area START -->
+    <div class="header-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class=" col-6">
+                    <div class="logo-area">
+                        <a href="index.html"><img src="assets/img/logo.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header-area END -->
+
+
+    <main>
+        
+
+
+        <!---------Tnx Section START ---------->
+        <section class="Tnx-area">
+            <div class="container center" >
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="d-flex flex-wrap align-content-center justify-content-center gap-4 mt_150">
+                            <a href="#" class="thm_btn " data-bs-toggle="modal" data-bs-target="#PopUp-AX">PopUp AX</a>
+                            <a href="#" class="thm_btn bordered" data-bs-toggle="modal" data-bs-target="#PopUp-TX">PopUp TX</a>
+                            <a href="#" class="thm_btn " data-bs-toggle="modal" data-bs-target="#PopUp-CX">PopUp CX</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---------Tnx Section End ---------->
+
+
+  
+  <!--PopUp- Modal -->
+  <div class="modal fade" id="PopUp-AX" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content popUp_style">
+            <div class="popUp-AX ">
+                <a href="#" data-bs-dismiss="modal" ><img src="assets/img/XCircle.svg" alt=""></a>
+                <h3>Opa... Houve um erro!</h3>
+                <i>
+                    <img src="assets/img/ax.svg" alt="">
+                </i>
+                <p>
+                    Lamentamos, mas ocorreu um erro ao tentar confirmar sua adesão ao Resguarda+
+                </p>
+            </div>
+        </div>
+    </div>
+  </div>
+  
+  <!--PopUp- Modal -->
+  <div class="modal fade" id="PopUp-TX" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content popUp_style">
+            <div class="popUp-TX ">
+                <h3>Código de token incorreto</h3>
+                <p>O código do token inserido não é válido ou já expirou. Por favor, verifique e insira novamente.</p>
+                <a href="#" class="thm_btn bordered" data-bs-dismiss="modal">Fechar</a>
+            </div>
+        </div>
+    </div>
+  </div>
+  
+  <!--PopUp- Modal -->
+  <div class="modal fade" id="PopUp-CX" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content popUp_style">
+            <div class="popUp-CX ">
+                <h3>Senha incorreta</h3>
+                <i>
+                    <img src="assets/img/cx.svg" alt="">
+                </i>
+                <p>A senha que você digitou é inválida, restam 2 tentativas antes da sua senha ser bloqueada</p>
+                <a href="#" class="thm_btn" data-bs-dismiss="modal">Tente novamente</a>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+  <!-- data-bs-dismiss="modal" -->
+
+    </main>
+
+    
+		<!-- JS here --> 
+        <script src="assets/js/jquery-3.4.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
+
